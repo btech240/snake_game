@@ -31,7 +31,6 @@ class Snake:
 
     def up(self):
         if self.head.heading() != 270:
-
             self.head.setheading(90)
 
     def down(self):
